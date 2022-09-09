@@ -199,10 +199,10 @@ body{
 
 @media only screen and (max-width: 428px){
     .form {
-        margin: 20px 14px;
+        margin: 20px 30px;
     }
 
-    .container{
+    .form-container{
         width: 400px;
     }
 
@@ -210,12 +210,16 @@ body{
         margin: 10px 70px;
     }
 
+    .constant{
+        margin-bottom: 1px;
+    }
+
     .constant label{
         font-size: 12px;
     }
 
     .constant input {
-        padding: 12px;
+        padding: 10px;
     }
     .form .btn {
         margin-bottom: 10px;
